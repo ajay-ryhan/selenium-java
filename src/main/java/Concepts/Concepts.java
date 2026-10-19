@@ -41,7 +41,28 @@ public class Concepts {
             }
     }
 
+    //ForEachLoop..
+    public void forEachLoop(){
+        String[] names = {"Rudra", "John", "Cindrella", "Anamicaa"};
+
+        for (String s : names){
+            System.out.println(s);
+        }
+    }
+
+
     //ArrayList
-    ArrayList<String> arrayList = new ArrayList<>();
+    public void arrayList(){
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("Germany");
+        arrayList.add("Columbia");
+        arrayList.add("Morocco");
+        arrayList.remove(2);
+        arrayList.add("Palastine");
+        arrayList.get(0);
+        arrayList.contains("Jamaica");
+
+    }
+
 
 }

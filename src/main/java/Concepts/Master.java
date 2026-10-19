@@ -13,6 +13,9 @@ public class Master {
         //Array..
         int[] arrayOut = code.arrays();
         System.out.println(Arrays.toString(arrayOut));
+        //ForLoop..
         code.forLoop();
+        code.forEachLoop();
+
     }
 }
