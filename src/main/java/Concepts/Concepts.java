@@ -1,6 +1,9 @@
 package Concepts;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Concepts {
 
@@ -50,6 +53,12 @@ public class Concepts {
         }
     }
 
+    public void stringToList(){
+        String[] names = {"Dhoni", "Raina","Varshini", "Hema"};
+        List<String> stringList = Arrays.asList(names);
+        System.out.println(stringList);
+    }
+
 
     //ArrayList
     public void arrayList(){
@@ -59,9 +68,11 @@ public class Concepts {
         arrayList.add("Morocco");
         arrayList.remove(2);
         arrayList.add("Palastine");
-        arrayList.get(0);
-        arrayList.contains("Jamaica");
+        arrayList.get(1);
+        String present = arrayList.contains("Germany") ? "True" : "false";
 
+        System.out.println(arrayList);
+        System.out.println(present);
     }
 
 

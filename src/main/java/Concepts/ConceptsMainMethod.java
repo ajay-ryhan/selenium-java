@@ -16,6 +16,7 @@ public class Master {
         //ForLoop..
         code.forLoop();
         code.forEachLoop();
+        code.stringToList();
 
     }
 }
