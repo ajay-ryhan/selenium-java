@@ -2,7 +2,7 @@ package Concepts;
 
 import java.util.Arrays;
 
-public class Master {
+public class ConceptsMainMethod {
 
     public static void main(String[] args) {
 
@@ -13,10 +13,14 @@ public class Master {
         //Array..
         int[] arrayOut = code.arrays();
         System.out.println(Arrays.toString(arrayOut));
+        //String to List using Arrays..
+        code.stringToList();
         //ForLoop..
         code.forLoop();
         code.forEachLoop();
-        code.stringToList();
+        //ArrayList..
+        code.arrayList();
+
 
     }
 }
