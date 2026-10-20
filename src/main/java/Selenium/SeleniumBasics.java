@@ -20,5 +20,6 @@ public class SeleniumBasics {
         //Locators class
         Locators locators = new Locators();
         locators.locatorsPractice();
+        locators.rahulShettyCode();
     }
 }
