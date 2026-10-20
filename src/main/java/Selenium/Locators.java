@@ -23,12 +23,14 @@ public class Locators {
         //driver.findElement(By.xpath("//button[@class='btn-primary practice-submit']")).click(); //Method 1
         driver.findElement(By.xpath("//button[text()='Submit']")).click(); //Method 2
         driver.findElement(By.cssSelector("button[type='reset']")).click();
+        driver.close();
     }
 
     public void rahulShettyCode() throws InterruptedException {
 
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
+
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         driver.get("https://rahulshettyacademy.com/locatorspractice/");
