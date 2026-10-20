@@ -4,7 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class SeleniumBasics {
-    public static void main(String[] args) throws InterruptedException {
+
+    public void introduction() throws InterruptedException {
 
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
@@ -17,5 +18,6 @@ public class SeleniumBasics {
         Thread.sleep(3000);
         System.out.println("The page title is " + pageTitle + "and the navigated URL is " + navigatedURL);
         driver.close();
+
     }
 }

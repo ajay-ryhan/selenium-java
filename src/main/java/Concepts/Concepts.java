@@ -1,6 +1,9 @@
 package Concepts;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Concepts {
 
@@ -41,7 +44,36 @@ public class Concepts {
             }
     }
 
+    //ForEachLoop..
+    public void forEachLoop(){
+        String[] names = {"Rudra", "John", "Cindrella", "Anamicaa"};
+
+        for (String s : names){
+            System.out.println(s);
+        }
+    }
+
+    public void stringToList(){
+        String[] names = {"Dhoni", "Raina","Varshini", "Hema"};
+        List<String> stringList = Arrays.asList(names);
+        System.out.println(stringList);
+    }
+
+
     //ArrayList
-    ArrayList<String> arrayList = new ArrayList<>();
+    public void arrayList(){
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("Germany");
+        arrayList.add("Columbia");
+        arrayList.add("Morocco");
+        arrayList.remove(2);
+        arrayList.add("Palastine");
+        arrayList.get(1);
+        String present = arrayList.contains("Germany") ? "True" : "false";
+
+        System.out.println(arrayList);
+        System.out.println(present);
+    }
+
 
 }
