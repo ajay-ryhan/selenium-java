@@ -17,5 +17,8 @@ public class SeleniumBasics {
         Thread.sleep(3000);
         System.out.println("The page title is " + pageTitle + "and the navigated URL is " + navigatedURL);
         driver.close();
+        //Locators class
+        Locators locators = new Locators();
+        locators.locatorsPractice();
     }
 }
